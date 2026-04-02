@@ -17,9 +17,8 @@ Este projeto consiste em um sistema de quiz interativo e multidisciplinar de alt
 - **Atuador Sonoro:** Buzzer Piezoelétrico (Controlado via PWM para diferentes frequências)
 
 ## 📂 Estrutura do Repositório
-- `/src`: Código-fonte principal desenvolvido em C/C++.
-- `/docs`: Relatório técnico detalhado, fluxogramas e documentação de suporte.
-- `/include`: Arquivos de cabeçalho (`.h`) e definições de fontes gráficas (`ssd1306_font.h`).
+- `/BRAND_QUIZ.C`: Código-fonte principal desenvolvido em C/C++.
+- `/RELATÓRIO TÉCNICO_PROJETO BRAND QUIZ.pdf`: Relatório técnico detalhado, fluxogramas e documentação de suporte.
 - `CMakeLists.txt`: Arquivo de configuração para compilação via SDK.
 
 ## 🔧 Como Instalar e Rodar
@@ -36,6 +35,6 @@ make
 6.O jogo iniciará automaticamente exibindo a tela principal do Brand Quiz.
 💻 Simulação jogo
 Você pode visualizar a lógica de estados, a interface gráfica e o comportamento dos botões através do link abaixo:
-link: 
+link: https://drive.google.com/file/d/1ZxYt8yQz-RYQOJ9ldpnhKlIoOR8MsH5S/view?usp=sharing
 📄 Relatório Técnico
 O relatório detalhado contendo os objetivos, requisitos funcionais, arquitetura de hardware e o fluxograma de decisão está disponível na pasta /RELATÓRIO TÉCNICO_PROJETO BRAND QUIZ.PDF.
