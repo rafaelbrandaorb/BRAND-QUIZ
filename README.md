@@ -26,7 +26,7 @@ Este projeto consiste em um sistema de quiz interativo e multidisciplinar de alt
 1. Configure o ambiente de desenvolvimento **Pico SDK** em sua máquina.
 2. Clone este repositório:
    ```bash
-   git clone [https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git)
+   https://github.com/rafaelbrandaorb/BRAND-QUIZ
 3.Compile o projeto utilizando CMake:
 mkdir build && cd build
 cmake ..
