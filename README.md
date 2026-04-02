@@ -1,5 +1,5 @@
 # 🎮 Projeto: Brand Quiz - Desafio Multidisciplinar Embarcado
-
+LINK PARA O VÍDEO: https://drive.google.com/file/d/1tbLXj3h5Ngkdr7Uaahs2FfrUHSrEeT88/view?usp=sharing
 Este projeto consiste em um sistema de quiz interativo e multidisciplinar de alta performance, desenvolvido para rodar no microcontrolador **RP2040**. Utilizando a placa **BitDogLab**, o sistema desafia o usuário com perguntas em tempo real, integrando interface visual, lógica de tempo e feedbacks sensoriais para uma experiência educativa imersiva.
 
 ## 🚀 Funcionalidades
