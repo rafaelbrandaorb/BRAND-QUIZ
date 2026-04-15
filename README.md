@@ -3,7 +3,7 @@ LINK PARA O VÍDEO: https://drive.google.com/file/d/1tbLXj3h5Ngkdr7Uaahs2FfrUHSr
 Este projeto consiste em um sistema de quiz interativo e multidisciplinar de alta performance, desenvolvido para rodar no microcontrolador **RP2040**. Utilizando a placa **BitDogLab**, o sistema desafia o usuário com perguntas em tempo real, integrando interface visual, lógica de tempo e feedbacks sensoriais para uma experiência educativa imersiva.
 
 ## 🚀 Funcionalidades
-- **Interface Visual Dinâmica:** Exibição de menus, perguntas e opções no Display OLED SSD1306.
+- **Interface Visual Dinâmica:** Exibição de menus, perguntas, LED RGB para caso o jogador acerte ou erre a pergunta e opções no Display OLED SSD1306.
 - **Cronômetro Regressivo:** Barra visual no display que monitora o tempo de resposta do jogador de forma fluida.
 - **Feedback Sonoro (PWM):** Tons distintos emitidos pelo Buzzer para indicar acertos, erros ou fim de tempo (Game Over).
 - **Controle via Interrupção (IRQ):** Uso de interrupções de hardware nos botões A e B para garantir resposta imediata e sem atrasos aos comandos.
@@ -13,6 +13,7 @@ Este projeto consiste em um sistema de quiz interativo e multidisciplinar de alt
 - **Microcontrolador:** [Raspberry Pi Pico W (RP2040)](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
 - **Placa de Expansão:** BitDogLab (Uso Obrigatório para integração dos periféricos)
 - **Display:** OLED 128x64 (Interface I2C)
+- **LED RGB:** GREEN GPIO11 (ACENDE CASO O JOGADOR ACERTE) E RED GPIO13 (ACENDE CASO O JOGADOR ERRE E DA GAME OVER)
 - **Entradas:** Botões A e B (Configurados com Pull-up interno e Debounce)
 - **Atuador Sonoro:** Buzzer Piezoelétrico (Controlado via PWM para diferentes frequências)
 
